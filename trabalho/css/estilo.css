@@ -1,0 +1,141 @@
+*{
+    background-color: BurlyWood;
+}
+
+.container{
+   background-color: BurlyWood;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+
+
+}
+
+
+
+
+ .um{
+ height:2vh; 
+ width:10%;
+ background-color:Silver; 
+ }
+
+ .dois{
+
+ 	height:30vh; 
+ width:100%;
+ background-color:DarkGray;
+
+ }
+
+ #jogo{
+height:30vh; 
+ width:100%;
+
+ }
+
+ 
+ 
+
+ .geral{
+
+
+    
+    display:flex;
+    flex-direction:row;
+    
+    width: 100%;
+    height:100vh;
+ }
+
+ .tres{
+
+    height:100vh; 
+ width:20%;
+     background-color:gray;
+
+     }
+
+     #trofeu{
+      height:108vh; 
+       width:100%;
+
+
+     }
+
+     .dir{
+
+       
+    display:flex;
+    flex-direction:column;
+    
+    width: 80%;
+    height:100vh;
+     }
+   .quatro{
+    width:100%;
+    height:50vh; 
+    background-color:Wheat;
+
+   }
+   #japao{
+  width:50%;
+    height:50vh;
+    float: right;
+
+   }
+   p{
+
+    font-family:arial black;
+    font-size: 20px;
+   }
+   .m1{
+    width:100%;
+    height:50vh; 
+    background-color:Wheat;
+ }
+
+ #alemanha{
+ width:20%;
+    height:20vh;
+    float: left;
+
+ }
+ .m2{
+
+     width:100%;
+    height:50vh; 
+    background-color:Wheat;
+ }
+
+ #costa{
+width:20%;
+    height:20vh; 
+     float: left;
+ }
+ .m3{
+width:100%;
+    height:50vh; 
+    background-color:Wheat;
+
+ }
+
+ #espanha{
+   width:20%;
+    height:20vh;
+    float: left;
+ }
+
+
+
+ @media(max-width: 760px){
+
+ 	.um, .dois, .tres,.quatro,#japao,.m1,#alemanha,.m2,#costa,.m3,#espanha, p, .container{
+ 		width: 100%;
+
+ 	}
+
+ 	.dois{
+ 		display: none;
+ 	}
+ }
